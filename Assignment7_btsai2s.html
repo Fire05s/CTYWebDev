@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Fakelandia's Local Aquarium | Feedback Form</title>
+	</head>
+	<body>
+        <h1>Feedback Form for Fakelandia's Local Aquarium Website</h1>
+		<form>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label>First Name:
+                    <input type = 'text' name = 'fname'>
+                </label>
+                <br>
+                <label>Last Name:
+                    <input type = 'text' name = 'lname'>
+                </label>
+                <br>
+                <label>Email
+                    <input type = 'email' name = 'email'>
+                </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <label>How did you find our website?</label>
+                <br>
+                <select name = 'referral'>
+                    <option value = 'searched'>Searched</option>
+                    <option value = 'recommend'>Family/Friend Recommendation</option>
+                    <option value = 'ad'>Advertisements</option>
+                </select>
+                <div>
+                    <label>Why did you visit our website?</label>
+                    <br>
+                    <input type = 'radio' name = 'reason' value = 'visitor' id = 'v'>
+                    <label for = 'v'>Visitor</label>
+                    <input type = 'radio' name = 'reason' value = 'employee' id = 'e'>
+                    <label for = 'e'>Employee</label>
+                    <input type = 'radio' name = 'reason' value = 'researcher' id = 'r'>
+                    <label for = 'r'>Researcher</label>
+                </div>
+                <div>
+                    <label>Please check all working parts of the website:</label>
+                    <br>
+                    <input type = 'checkbox' name = 'working' value = 'home' id = 'h'>
+                    <label for = 'h'>Home</label>
+                    <input type = 'checkbox' name = 'working' value = 'about' id = 'a'>
+                    <label for = 'a'>About Us</label>
+                    <input type = 'checkbox' name = 'working' value = 'faq' id = 'f'>
+                    <label for = 'f'>FAQ</label>
+                    <input type = 'checkbox' name = 'working' value = 'contact' id ='c'>
+                    <label for = 'c'>Contact Us</label>
+                </div>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Opinions</legend>
+                <label>Rate our Website:
+                    <input type = 'number' min = 0 max = 100>
+                </label>
+                <br>
+                <label>Any comments or concerns?</label>
+                <br>
+                <textarea name = 'comments'></textarea>
+            </fieldset>
+
+            <br>
+
+            <button type = 'Submit'>Submit Form</button>
+            <br>
+            <button type = 'reset'>Reset Form</button>
+
+        </form>
+	</body>
+</html>
