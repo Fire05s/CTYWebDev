@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Compression Test</title>
+	</head>
+	<body>
+        <!--
+            From what I observed, the larger the image the more it is necessary to have a higher quality image.
+            For the smaller images, it becomes harder to distinguish the drop in quality between each of the
+            images as individual pixels are harder to notice. At roughly a quality of 2 for the small image and
+            3 for the large image, you can start seeing individual pixels. These tradeoffs of compressing an
+            image file are worth it, especially in some cases to speed up the loading of a website, but it
+            shouldn't jeopardize the image and thereby the overall quality of the website.
+        -->
+        <div>
+            <img src = 'Nevada.jpg' alt = 'Nevada.jpg' title = 'Quality:8'>
+            <img src = 'Nevada2.jpg' alt = 'Nevada2.jpg' title = 'Quality:4'>
+            <img src = 'Nevada3.jpg' alt = 'Nevada3.jpg' title = 'Quality:2'>
+            <img src = 'Nevada4.jpg' alt = 'Nevada4.jpg' title = 'Quality:1'>
+        </div>
+        
+        <br>
+
+        <div>
+            <img src = 'NevadaSmall.jpg' alt = 'NevadaSmall.jpg' title = 'Quality:8'>
+            <img src = 'NevadaSmall2.jpg' alt = 'NevadaSmall2.jpg' title = 'Quality:4'>
+            <img src = 'NevadaSmall3.jpg' alt = 'NevadaSmall3.jpg' title = 'Quality:2'>
+            <img src = 'NevadaSmall4.jpg' alt = 'NevadaSmall4.jpg' title = 'Quality:1'>
+        </div>
+	</body>
+</html>

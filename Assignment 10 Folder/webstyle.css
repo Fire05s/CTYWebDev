@@ -1,0 +1,45 @@
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+span {
+    border: 5px double black;
+    background-color: blue;
+}
+/* Using a combination of a black/blue "tank" with an orange title to simulate a fish tank for notable titles. */
+
+
+p.note {
+    color: gray;
+    line-height: 1200%;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    line-height: 1000%;
+    display: block;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 25px;
+    text-align:center;
+
+}
