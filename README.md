@@ -1,2 +1,2 @@
 # CTYWebDev
-Website I created for Johns Hopkins' CTY Web Development Course
+Website I created for Johns Hopkins' CTY Web Development Course.
